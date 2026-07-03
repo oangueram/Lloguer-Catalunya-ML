@@ -9,7 +9,7 @@ Quant ha pujat el lloguer a Catalunya en gairebé vint anys, i on té sentit inv
 
 ## Què fa
 
-- **Neteja les dades** — normalitza el format numèric de la renda i elimina outliers per any i municipi (mètode IQR), per no confondre inflació amb pujades reals.
+- **Neteja les dades** — normalitza el format numèric de la renda i elimina outliers per any i municipi (mètode IQR), per no confondre inflació amb pujades reals ni municipis bombolla amb outliers.
 - **Explora el mercat** — distribució de preus, rànquings de creixement (anual i històric) i de volatilitat per municipi.
 - **Mapeja Catalunya** — un choropleth interactiu que mostra l'efecte "taca d'oli" de Barcelona sobre els preus dels municipis veïns.
 - **Prediu preus a Barcelona** — compara models polinòmics amb validació temporal (`TimeSeriesSplit`) i els millora amb *lag features* per captar la tendència recent.
@@ -18,7 +18,7 @@ Quant ha pujat el lloguer a Catalunya en gairebé vint anys, i on té sentit inv
 ## Dades
 
 Es carreguen automàticament per URL des d'aquest mateix repositori:
-- `ambits_trimestral_lloguer.csv` — preus de lloguer trimestrals per municipi
+- `ambits_trimestral_lloguer.csv` — preus de lloguer per municipi
 - `municipis.zip` — geometries GeoJSON dels municipis catalans, per al mapa
 
 ## Com executar-ho
