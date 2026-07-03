@@ -23,16 +23,7 @@ Es carreguen automàticament per URL des d'aquest mateix repositori:
 
 ## Com executar-ho
 
-La manera més ràpida és obrir-lo directament a Colab (botó de dalt). En local:
-
-```bash
-git clone https://github.com/oangueram/Lloguer-Catalunya-ML.git
-cd Lloguer-Catalunya-ML
-pip install pandas numpy plotly scikit-learn requests
-python lloguer.py
-```
-
-Fora d'un notebook, els gràfics de Plotly s'obren automàticament al navegador.
+La manera més ràpida és obrir-lo directament a Colab (botó de dalt).
 
 ## Conclusions principals
 
