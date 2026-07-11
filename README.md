@@ -36,6 +36,16 @@ La manera més ràpida és obrir-lo directament a Colab (botó de dalt).
 - Incorporar variables macroeconòmiques (Euríbor, IPC) i provar models més complexos per reduir l'error de predicció.
 - Entrenar un Isolation Forest local, només dins el segment emergent, per detectar sobrevaloracions relatives entre municipis similars.
 
+## 🤖 Desenvolupament Assistit per IA
+
+Aquest projecte s'ha construït integrant eines de models de llenguatge avançats (LLMs) per accelerar el cicle de creació i mantenir el codi net. L'ús de la IA s'ha centrat estratègicament en:
+
+- **Refactorització i Depuració (Debugging):** Diagnòstic de codi i resolució d'errors.
+- **Generació de Codi Estructural:** Creació de blocs estàndard.
+- **Cerca de sintaxi:** Ús de la IA com a diccionari avançat de Python per materialitzar en codi les decisions analítiques i metodològiques preses per l'autor.
+- **Documentació i Format:** Estructuració d'aquest `README.md` i suport en la redacció de comentaris.
+
+> **Nota d'auditoria:** Tot i l'assistència en la picada de codi, **les decisions estructurals i de negoci** (com la selecció del mètode matemàtic IQR per evitar el biaix humà en els *outliers*, el control de l'*overfitting* ajustant el polinomi de la regressió, la tria estratègica del Clúster 2 per maximitzar l'enfocament *Value-Add*, i la decisió de creuar-ho amb l'*Isolation Forest* per mitigar el risc de liquiditat) són íntegrament d'autoria humana i fruit de l'anàlisi estratègica del mercat. Tota la feina assistida per IA ha estat revisada i validada manualment.
 ---
 
 **Autor:** [Oriol Anguera Milà](https://github.com/oangueram)
