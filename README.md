@@ -11,7 +11,7 @@ Quant ha pujat el lloguer a Catalunya en gairebé vint anys, i on té sentit inv
 
 - **Neteja les dades** — normalitza el format numèric de la renda i elimina outliers per any i municipi (mètode IQR), per no confondre inflació amb pujades reals ni municipis bombolla amb outliers.
 - **Explora el mercat** — distribució de preus, rànquings de creixement (anual i històric) i de volatilitat per municipi.
-- **Mapeja Catalunya** — un choropleth interactiu que mostra l'efecte "taca d'oli" de Barcelona sobre els preus dels municipis veïns.
+- **Mapeja Catalunya** — un mapa interactiu que mostra l'efecte "taca d'oli" de Barcelona sobre els preus dels municipis veïns.
 - **Prediu preus a Barcelona** — compara models polinòmics amb validació temporal (`TimeSeriesSplit`) i els millora amb *lag features* per captar la tendència recent.
 - **Busca oportunitats d'inversió** — segmenta tots els municipis amb K-Means (preu, creixement, volum de contractes) i aplica un Isolation Forest per descartar els més anòmals.
 
