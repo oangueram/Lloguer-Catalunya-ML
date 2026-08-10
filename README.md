@@ -45,7 +45,7 @@ Aquest projecte s'ha construït integrant eines de models de llenguatge avançat
 - **Cerca de sintaxi:** Ús de la IA com a diccionari avançat de Python per materialitzar en codi les decisions analítiques i metodològiques preses per l'autor.
 - **Documentació i Format:** Estructuració d'aquest `README.md` i suport en la redacció de comentaris.
 
-> **Nota d'auditoria:** Tot i l'assistència en la picada de codi, **les decisions estructurals i de negoci** (com la selecció del mètode matemàtic IQR per evitar el biaix humà en els *outliers*, el control de l'*overfitting* ajustant el polinomi de la regressió, la tria estratègica del Clúster 2 per maximitzar l'enfocament *Value-Add*, i la decisió de creuar-ho amb l'*Isolation Forest* per mitigar el risc de liquiditat) són íntegrament d'autoria humana i fruit de l'anàlisi estratègica del mercat. Tota la feina assistida per IA ha estat revisada i validada manualment.
+> **Nota d'auditoria:** Tot i l'assistència en la picada de codi, **les decisions estructurals i de negoci**  són íntegrament d'autoria humana. Tota la feina assistida per IA ha estat revisada i validada manualment.
 ---
 
 **Autor:** [Oriol Anguera Milà](https://github.com/oangueram)
